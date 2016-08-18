@@ -1,7 +1,7 @@
 import java.awt.Dimension;
 import javax.swing.JFrame;
 
-public class TicTacToe {
+public class TicTacToe2 {
        //this is the driver method for the whole program
 	   public static void main(String [] args )
        { 

@@ -32,11 +32,11 @@ public class TicTacToeFrame2 extends JFrame{
 				panel.add(cells[i][j]=new Cell2() );
 			}
 		}
-		panel.setBorder(new LineBorder(Color.red, 1) );
+		panel.setBorder(new LineBorder(Color.blue, 1) );
 		JLblStatus.setBorder(new LineBorder(Color.black, 1) );
 		
 		add(panel, BorderLayout.CENTER );
-		add(JLblStatus,BorderLayout.SOUTH );
+		add(JLblStatus,BorderLayout.NORTH );
 	
 	}
 	
